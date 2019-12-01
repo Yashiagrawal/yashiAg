@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3037" started-at="2019-11-28T22:35:01 IST" finished-at="2019-11-28T22:35:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3037" started-at="2019-11-28T22:35:01 IST" finished-at="2019-11-28T22:35:04 IST">
+      <class name="org.project.com.ReadDataXls">
+        <test-method status="PASS" signature="projectP()[pri:0, instance:org.project.com.ReadDataXls@3701eaf6]" name="projectP" duration-ms="2799" started-at="2019-11-28T22:35:01 IST" finished-at="2019-11-28T22:35:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectP -->
+      </class> <!-- org.project.com.ReadDataXls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
