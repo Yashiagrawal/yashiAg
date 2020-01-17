@@ -61,8 +61,8 @@ public class Cheapair extends BaseClass {
 		System.out.println("To Selected");
 
 		
-		//Select Depart Date
-		WebElement DepartDate = driver.findElement(By.xpath("//td[@class=' ui-datepicker-days-cell-over  ui-datepicker-current-day']"));
+		//Select Depart Date ( 20 days after the date enabled or current date)
+		WebElement DepartDate = driver.findElement(By.xpath("(//td[@data-handler='selectDay']//a)[20]"));
 		Thread.sleep(2000);
 		DepartDate.click();
 		System.out.println("Depart Date Selected");
