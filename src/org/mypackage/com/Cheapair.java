@@ -125,6 +125,7 @@ public class Cheapair extends BaseClass {
 		System.out.println("Parent Window ="+driver.getTitle());
 		
 		driver.close();	
+               Thread.sleep(5000);
 
         
         // Switching to Alert       
@@ -134,16 +135,17 @@ public class Cheapair extends BaseClass {
  
 // Switching to Alert        
    Alert alert = driver.switchTo().alert();
+   alert.getText();
    
    //Capturing Alert Message
 
-   String alertMessage = driver.switchTo().alert().getText();
+  
    
-   System.out.println(alertMessage);	
-   Thread.sleep(5000);
+   System.out.println(alert.getText());	
+  
 	
    // Accepting alert		
-   alert.accept();	
+    alert.dismiss();	
 
    
  
